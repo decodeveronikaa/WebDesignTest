@@ -1,0 +1,22 @@
+Login Page Done
+Registration Page Done
+Userdetail table Done
+    id
+    username (unique)
+    email
+    firstname
+    lastname
+    password
+
+CREATE DATABASE veronika;
+USE DATABASE veronika;
+CREATE TABLE `veronika`.`userdetails` ( `id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(50) NOT NULL , `firstname` VARCHAR(50) NOT NULL , `lastname` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , `pwd` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+
+Dynamic CSS to for color scheme Done
+
+Home Page on Login Done
+
+Display of User information from database in the form of JSON
+
+Menu Items on the Home Page. DONE
+Option to hide show menu items. DONE
